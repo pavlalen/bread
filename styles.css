@@ -65,7 +65,7 @@ a:hover {
 .box {
     display: flex;
     justify-content: center;   
-    background-image: url('./img/Безымянный.png');
+    background-image: url('Безымянный.png');
     height: 350px;
     background-repeat: no-repeat;
     text-align: center;
@@ -85,7 +85,7 @@ a:hover {
 
 @media all and (max-width: 480px) {
 .box {
-    background-image: url('./img/Безымянный2.png');
+    background-image: url('Безымянный2.png');
     width: auto;
     margin-top: 0;
 }
