@@ -1,0 +1,161 @@
+html {
+    background-color: #433512;
+    color: #433512;
+}
+
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #CA9A4E;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin: 0 0;
+    padding: 0%;
+}
+
+.container li img {
+    align-self: flex-start;
+}
+
+.container li {
+    list-style: none;
+    margin: 0%;
+    text-align: center;
+    flex: none;
+}
+
+a {
+    text-decoration: none;
+    color: #433512;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black
+}
+ 
+@media all and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        height: 150px;
+
+    }
+    .container li {
+        border-style: solid;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .container li img {
+        display: none;
+    }
+}
+
+.main {
+    padding-top: 30px;
+    opacity: 0.95;
+
+}
+.box {
+    display: flex;
+    justify-content: center;   
+    background-image: url('./img/Безымянный.png');
+    height: 350px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.love {
+    width: auto;
+    font-size: 28px;
+    background-color: #CA9A4E;
+    padding: 50px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5%;
+}
+
+@media all and (max-width: 480px) {
+.box {
+    background-image: url('./img/Безымянный2.png');
+    width: auto;
+    margin-top: 0;
+}
+.love {
+    font-size: 22px;
+    padding: 25;
+    justify-content: center;
+}
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CA9A4E;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin: 0 0;
+    padding: 0%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    background-position: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.bread, 
+.beaker {
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+.bread img
+{
+    height: 200px;
+}
+.beaker img {
+    height: 180px;
+}
+
+.bread h3
+.beaker h3 {
+    margin: 10px;
+}
+.our .love {
+    display: block;
+    margin: 15px auto;
+    opacity: 0.9;
+    border-radius: 5%;
+    width:auto;
+    margin-bottom: 20px;
+}
+
+
+.cont {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CA9A4E;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    margin: 0 0;
+    margin-top: 15px;
+    padding: 0%;
+    width: 100%;
+}
